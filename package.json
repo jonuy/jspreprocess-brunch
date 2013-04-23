@@ -1,6 +1,6 @@
 {
   "name": "jspreprocess-brunch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds js preprocessor support to js brunch compilations.",
   "main": "./lib/index",
   "scripts": {

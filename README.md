@@ -52,5 +52,5 @@ ex: `// #BRUNCH_IF (PRODUCTION || iOS)`
 ## Compile Your Brunch App
 Using the config_prod.coffee and config_debug.coffee examples from before, you can compile each config like so:
 
-`brunch build -c config_prod`
-`brunch build -c config_debug`
+* `brunch build -c config_prod`
+* `brunch build -c config_debug`
