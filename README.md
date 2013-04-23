@@ -42,7 +42,7 @@ Directives for if, else, elif, and endif are available to control what javascrip
 // #BRUNCH_ENDIF
 ```
 
-Note the use of parentheses. Unlike C preprocessor directives, those parenthese will be required here for if and elif statements.
+Note the use of parentheses. Unlike C preprocessor directives, those parentheses are required for `#BRUNCH_IF` and `#BRUNCH_ELIF` statements.
 
 The `#BRUNCH_IF` and `#BRUNCH_ELIF` directives also support the OR (||) operator.
 ex: `// #BRUNCH_IF (PRODUCTION || iOS)`

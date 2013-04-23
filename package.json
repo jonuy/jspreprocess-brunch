@@ -1,7 +1,7 @@
 {
   "name": "jspreprocess-brunch",
-  "version": "1.0.1",
-  "description": "Adds js preprocessor support to js brunch compilations.",
+  "version": "1.0.2",
+  "description": "Adds C-style preprocessor directive support to js brunch compilations.",
   "main": "./lib/index",
   "scripts": {
     "test": "node setup.js test"
