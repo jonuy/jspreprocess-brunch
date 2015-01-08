@@ -4,11 +4,15 @@
   "description": "Adds C-style preprocessor directive support to js brunch compilations.",
   "main": "./lib/index",
   "scripts": {
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
     "test": "node setup.js test"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:jonuy/jspreprocess-brunch.git"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
   },
   "author": "Jonathan Uy (http://jonuy.com)"
 }
